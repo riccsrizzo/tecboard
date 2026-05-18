@@ -1,0 +1,24 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1em 0 1em;
+}
+
+@media screen and (min-width: 728px) {
+    .cabecalho {
+        padding: 3em 2em 0 2em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        padding: 0;
+    }
+    .cabecalho__imagem {
+        padding: 75px 0 0 9em;
+    }
+
+    .cabecalho__modo {
+        padding: 70px 9em 0 0;
+    }
+}
